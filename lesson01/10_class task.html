@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <script>
+
+                    // A
+         var age = prompt("enter your age :");
+         
+            if(age >= 18 && age < 120){
+                alert("Enter");
+                console.log(`age ${age}`);
+            }
+            else if (age == 0 || age < 120 ){
+                console.log("invalid age");
+            }
+           else (age < 18 || age > 120);{
+            console.log("too young age please come in `years until 18` !");
+            }
+            console.log(`age ${age}`);  
+
+                // B
+
+            var number = Number(prompt("enter number :"));
+            
+            if(number % 2 == 0 || number / 2 == 1 ){
+                console.log(`EVEN ${number}`);
+            }
+            else {
+                console.log(`ODD ${number}`)
+            }
+
+                //C 
+            
+                var num1 = prompt("ENTER A NUM1 :");
+                var num2 = prompt("ENTER A NUM2 :");
+                var num3 = prompt("ENTER A NUM3 :");
+
+                if (num1 < num2 && num1 < num3 && num2 < num3 ){
+                    console.log(`num1 ${num1}, num2 ${num2}, num3${num3}`);
+                }
+                if else (num2 > num1 && num2 < num3 && num1 < num3 ){
+                    console.log(`num1 ${num1}, num2 ${num2}, num3${num3}`);
+                }
+                
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var func= function(){
+                console.log(`In seTimeout : ${Date.now()}`);
+            }
+            setTimeout(func, 3000);
+
+            console.log(`After seTimeout : ${Date.now()}`);
+
+            /*
+           After seTimeout : 1596532465029
+           In seTimeout : 1596532468032
+            */
+    </script>
+</body>
+</html>

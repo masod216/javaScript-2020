@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // switch case : similar to if,
+        // usually in use when we have multuple options. 
+
+        var CurrentDay = Number(prompt("Enter the current day:"));
+
+        switch(CurrentDay){
+             case 1: alert("Sunday"); 
+             break; // Sunday
+             case 2: alert("Monday");
+             break; // Monday
+             case 3: alert("thesday");
+             break; // thesday
+             case 4: alert("Wendsday");
+             break; // Wendsday
+             case 5: // weekend
+             case 6: // weekend
+             case 7: alert("weekend!") // weekend
+             break;
+             default: alert("Invalid day ! try again")
+        }
+
+        var Month = Number(prompt("Enter the Mounth:"));
+
+        switch(Month){
+             case 1: alert("January"); 
+             break; 
+             case 2: alert("February");
+             break; 
+             case 3: alert("March");
+             break; 
+             case 4: alert("April");
+             break;
+             case 5: alert("May");
+             break;
+             case 6: alert("June, This is summer");
+             break; 
+             case 7: alert("jule, This is summer");
+             break;
+             case 8: alert("August, This is summer");
+             break;
+             case 9: alert("September");
+             break;
+             case 10: alert("October");
+             break; 
+             case 11: alert("November");
+             break;
+             case 12: alert("December");
+             break;
+             default: alert("Invalid Month ! try again")
+        }
+
+
+
+    </script>
+</body>
+</html>

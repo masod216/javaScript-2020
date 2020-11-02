@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // matrix : 2 dimentional array :
+    var matrix = [
+            ["a","b","c"],
+            ["c","d","f"]
+    ];
+
+    console.log(matrix);
+
+    // print specific item :
+    // [0][0] - first [] : row, second [] : column. (item in row) .
+        console.log(matrix[0][0]); // a
+        console.log(matrix[1][1]); // e
+
+    //change value with index :
+    matrix[0][2] = "X";
+    console.log(matrix);
+
+    // matrix.length - number of rows :
+    console.log(matrix.length); //2
+    console.log(matrix[1].length); //3
+    
+
+    //console.table():
+    console.table(matrix);
+</script>
+</body>
+</html>

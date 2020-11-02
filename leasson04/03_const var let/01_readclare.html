@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <script>
+        // redclare : we cannot redeclare let and cost 
+        // that keeps variables from 
+        // -------------------- var -------------- 
+        var str = "hello";
+        var str = "bye";
+        console.log(str); // bye
+
+
+        // -------------------- let --------------
+        // Uncaught SyntaxError: Identifier 'let1' has already been declared 
+        let let1 = "this is string";
+        let let1 = "new string";
+        console.log(let1); // ERROR!
+
+        
+        // -------------------- const -------------- 
+        // Uncaught SyntaxError: Identifier 'const1' has already been declared 
+
+        const const1 = "hello";
+        const const1 = "hello";
+        console.log(const1); // ERROR!
+
+    </script>
+</body>
+</html>

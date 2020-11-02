@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        /*
+            window object -represents an open window in the browser. 
+            window allows us to exeute code in time intervals (מרווחי זמן).
+            
+            * milliseconds : 1 second = 1000 milliseconds.
+
+            tow main built-in functions in JS:
+            1. setTimeout (function, millisecond);
+            will execute the function after waiting milliseconds. 
+            2. setInterval(function, milliseconds);
+            will execute the function every milliseconds, without stopping.
+            */
+
+            function sayHello(){
+                alert("Hello user!");
+            }
+            setTimeout(sayHello, 3000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+</head>
+<body>
+
+    <script>
+        // part 1 1------>5
+        var low, sum=0, odd=0, even=0, high=0, item, m=0, mf=1;
+        var arr = [undefined, undefined, undefined, undefined, undefined, undefined];
+        for(var x=0; x<arr.length; x++)
+        {
+            arr[x]= Number(prompt("enter a number"));
+            sum+=arr[x];
+            if(arr[x]%2==0)
+                even++;
+            else
+                odd++;
+        }
+        console.log(arr);
+        low=arr[0];
+        for(var x=0; x<arr.length; x++)
+        {
+            if(arr[x]>high)
+                high=arr[x];
+            if(arr[x]<low)
+                low=arr[x];
+        }
+        arr.sort();
+        console.table(arr)
+        console.log(`high=${high}, low=${low}, sum=${sum} \neven=${even}, odd=${odd}`);
+
+ 
+   
+    </script>
+    
+</body>
+</html>

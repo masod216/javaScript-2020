@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // ---------------var -------------
+        var var1 = "hello";
+        var1 = "bye";
+        console.log(var1); // bye
+
+        // ------------- let ------------ 
+        let let1 = "this is string";
+        let1  = "new string";
+        console.log(let1); // new string
+
+        // ------------- const ------------ 
+        const const1 = "this is string";
+        const1  = "new string";
+        console.log(const1); // Uncaught TypeError: Assignment to constant variable
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+            // use anonymous function inside seTimeout:
+            // 1. shorter code . easier to read
+            // 2. encapsulation (כימוס): we cannot access the function from any other place .
+            setTimeout(function(){
+            console.log(`In seTimeout : ${Date.now()}`);
+            }, 3000);
+
+            console.log(`After seTimeout ${Date.now()}`);
+        
+    </script>
+</body>
+</html>

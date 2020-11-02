@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let people = [
+            {
+                "firstName":"Jhon",
+                "lastName":"Levi",
+                "isMAle":true
+            },
+            {
+
+                "firstName":"Alice",
+                "lastName":"Cohen",
+                "isMAle":false
+            },
+            {  
+                "firstName":"Bob",
+                "lastName":"Israel",
+                "isMAle":true
+            },
+            {
+                "firstName":"Raz",
+                "lastName":"klein",
+                "age":45,
+                "isMAle":false
+            }
+        ]
+
+
+    console.log(`${people[3].firstName} ${people[3].lastName} is ${people[3].age} years old`);
+
+    for (let index = 0; index < people.length; index++) {
+        console.log(`${people[index].firstName}`);   
+    }
+
+    for (let index of people) {
+        console.log(index.firstName);
+        }
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

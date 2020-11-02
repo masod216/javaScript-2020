@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        // function that has no parametres , and does not return value
+        function hello(){
+            // code to exeute
+            alert("Hello studunts!");
+        }
+        hello();
+
+        // function that has 1 parametres, and does not return value.
+        function helloUser(userName){
+            alert("Hello"+ userName);
+        }
+        helloUser("jhon"); // Hello jhon
+
+         // function that has multiple parametres, and does not return value.
+
+        function calculateSum(num1,num2,num3){
+            var sum = num1 +num2 + num3;
+            console.log(`${num1} + ${num2} +${num3} = ${sum}`);
+        }
+        calculateSum(5,7,19);
+
+        // function that has no parametres, and does not return value.
+        function returnHello(){
+            return "Hello";
+        }
+        // to get the returned value - we call the function in print:
+        console.log(returnHello()); //Hello
+
+        //function that has multiple parametres, and does not return value.
+        function fullName(firstName, lastName){
+            return firstName + ' ' + lastName;
+        }
+        console.log(fullName('Alice','Cohen')); // Alice Cohen
+        console.log(fullName('Jhon','levi')); // jhon Levi 
+
+        // function sign :
+        console.log(fullName); 
+        /*
+        ƒ fullName(firstName, lastName){
+            return firstName + ' ' + lastName;
+        } 
+        */
+
+    </script>
+</body>
+</html>
