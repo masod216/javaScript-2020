@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<style>
+    #h1{
+        color:green;
+    }
+    #h2{
+        color: blue;
+    }
+</style>
+<body>
+    <h1 id="h1">this is header 1</h1>
+    <h1 id="h2">this is header 2</h1>
+
+    <!--onclick- gets a function as parameter, to run agter a user clicked-->
+    <button onclick="setText()">Click me</button>
+    
+    <script>
+
+        // innerHTML
+        function setText(){
+           let h1 = document.getElementById('h1');
+           let h2 = document.getElementById('h2');
+        }
+        // innerHTML - changes only the text inside the tag.
+        // outerHTM - changes the text, and all the data of the tag 
+        h1.innerHTML = "Hello";
+        h2.outerHTML = "<ol><li>sundy</li></ol><ol><li>Mondy</li></ol>";
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #h1{
+        color:red;
+    }
+    #h2{
+        color: green;
+    }
+</style>
+<body>
+    <h1 id="h1">this is header 1</h1>
+    <h1 id="h2">this is header 2</h1>
+
+    <!--onclick- gets a function as parameter, to run agter a user clicked-->
+    <button onclick="setText()">Click me</button>
+    
+    <script>
+
+        // innerHTML
+        function setText(){
+           let h1 =  document.getElementById('h1');
+           let h2 = document.getElementById('h2')
+        }
+
+        h1.innerHTML = "Hello";
+        h2.innerHTML = "students";
+    </script>
+</body>
+</html>
